@@ -1,7 +1,7 @@
 package lib.view;
 
 /***************************************
- * Authors: Devin Ling & Darren Zhou
+ * Authors: Devin Ling
  * LibController
  **************************************/
 

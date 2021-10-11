@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ************************************
+ * Authors: Devin Ling & Darren Zhou
+ * add.fxml
+ ************************************ -->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lib.view.AddController">
+   <children>
+      <Label layoutX="253.0" layoutY="14.0" text="Add Song">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="31.0" text="Please Fill Required(*) Fields">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="55.0" text="*Name:" AnchorPane.leftAnchor="194.0" AnchorPane.topAnchor="55.0" />
+      <Label layoutX="196.0" layoutY="85.0" text="*Artist:" AnchorPane.leftAnchor="196.0" AnchorPane.topAnchor="85.0" />
+      <Label layoutX="195.0" layoutY="115.0" text="Album:" AnchorPane.leftAnchor="195.0" AnchorPane.topAnchor="115.0" />
+      <Label layoutX="194.0" layoutY="145.0" text="Year:" AnchorPane.leftAnchor="194.0" AnchorPane.topAnchor="145.0" />
+      <TextField fx:id="nameField" layoutX="262.0" layoutY="51.0" AnchorPane.leftAnchor="262.0" AnchorPane.topAnchor="51.0" />
+      <TextField fx:id="artistField" layoutX="262.0" layoutY="81.0" AnchorPane.leftAnchor="262.0" AnchorPane.topAnchor="81.0" />
+      <TextField fx:id="albumField" layoutX="262.0" layoutY="111.0" AnchorPane.leftAnchor="262.0" AnchorPane.topAnchor="111.0" />
+      <TextField fx:id="yearField" layoutX="262.0" layoutY="141.0" AnchorPane.leftAnchor="262.0" AnchorPane.topAnchor="141.0" />
+      <Button fx:id="cancelbutton" layoutX="216.0" layoutY="189.0" mnemonicParsing="false" onAction="#cancelAdd" prefHeight="25.0" prefWidth="56.0" text="Cancel" />
+      <Button fx:id="finaladd" layoutX="309.0" layoutY="189.0" mnemonicParsing="false" onAction="#addSong" prefHeight="25.2" prefWidth="56.0" text="Add" />
+   </children>
+</AnchorPane>

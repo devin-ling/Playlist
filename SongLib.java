@@ -1,7 +1,7 @@
 package lib.app;
 
 /***************************************
- * Authors: Devin Ling & Darren Zhou
+ * Authors: Devin Ling
  * SongLib Main Application
  **************************************/
 
